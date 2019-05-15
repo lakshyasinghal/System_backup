@@ -1,0 +1,31 @@
+.heading {
+	color : #d9534f;
+}
+
+
+textarea:focus {
+	outline: none !important;
+	border: 1px solid #d9534f;
+	box-shadow: 0 0 10px #d9534f;
+}
+
+
+#complaintContainer {
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 50px;
+}
+
+#complaintContainer .text {
+	font-size: 18px;
+    font-weight: 150;
+}
+
+#buttonContainer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#submitBtn:focus {
+	outline: none;
+}

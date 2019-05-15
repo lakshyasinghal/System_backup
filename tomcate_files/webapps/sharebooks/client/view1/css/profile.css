@@ -1,0 +1,57 @@
+#heading {
+	text-align: center;
+}
+
+#profileTable {
+	margin-top: 100px;
+	border-collapse: collapse;
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+#profileTable td {
+	border-collapse: collapse;
+	padding-top: 19px;
+	border: none;
+}
+
+#profileTable tr {
+	height: 65px;
+	border: 1px solid grey;
+}
+
+#profileTable tr td:nth-child(2) {
+	text-align: center;
+}
+
+#profileTable button {
+	height: 35px;
+    width: 60px;
+    border-radius: 16px;
+}
+
+
+#btnRow {
+	text-align: center;
+}
+
+
+#profileTable input {
+	width: 50%;
+}
+
+#btnPanel {
+	margin-top: 35px;
+    text-align: center;
+}
+
+#btnPanel button {
+	height: 35px;
+    width: 75px;
+    border-radius: 4px;
+}
+
+#saveBtn {
+	margin-right: 15px;
+}

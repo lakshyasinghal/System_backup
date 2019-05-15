@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title>Set Preferences</title>
+
+    <script type="text/javascript">
+        console.time("Page loading");        
+    </script>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/preferences.css">
+
+        <script defer type="text/javascript" src="lib/jquery.js"></script>
+        <script defer type="text/javascript" src="lib/jquery-ui.js"></script>
+        <script defer type="text/javascript" src="lib/bootstrap.min.js"></script>
+        <script defer type="text/javascript" src="js/config.js"></script>
+        <script defer type="text/javascript" src="js/log.js"></script>
+        <script defer type="text/javascript" src="js/httpService.js"></script>
+        <script defer type="text/javascript" src="js/data.js"></script>
+        <script defer type="text/javascript" src="js/dataRequestServer.js"></script>
+        <script defer type="text/javascript" src="js/requestHandler.js"></script>
+        <script defer type="text/javascript" src="js/common.js"></script>
+        <script defer type="text/javascript" src="js/preferences.js"></script>
+</head>
+
+<body>
+
+        <div id="mainContainer">
+                <div class="fixed" id="prefCount">0</div>
+
+                <div id="header" class="center-align">
+                        <div id="text1">SELECT YOUR PREFERENCES</div>
+                        <div id="text2">Go For Atleast 5 Options</div>
+                </div>
+
+                <div id="preferencePanel">
+                        <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">HTML5</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Javascript</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Java</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Maths</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Science</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Fiction</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Geography</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">History</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Maths</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Science</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Fiction</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Geography</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">History</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Economics</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Interior Designing</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Physical Education</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Home Decor</span>
+            </div>
+            <div class="preference">
+                <img src="images/tick.png" class="tick" height="30" width="30"/>
+                <span class="prefText">Cooking Guide</span>
+            </div>
+                </div>  
+
+
+                <div id="submitContainer" class="center-align margin-top-20"><button id="submitBtn" class="btn btn-warning">Submit</button></div>
+        </div>
+
+    <script type="text/javascript">
+        function loadJS(url){
+            var scr = document.createElement('script');
+            scr.type = "text/javascript";
+            scr.defer = 'true';
+            scr.src = url;
+            document.head.appendChild(scr);
+        }
+
+        function loadCSS(url){
+            var link = document.createElement('link');
+            link.rel = "stylesheet";
+            link.async = 'true';
+            link.href = url;
+            document.head.appendChild(link);
+        }
+
+        function blocker(){
+            for (var i = 0; i < 10000000000; i++) {
+                
+            }
+        }
+
+        //blocker();
+
+        // loadCSS("css/bootstrap.css");
+        // loadCSS("css/common.css");
+        // loadCSS("css/preferences.css");
+
+
+        // loadJS("lib/jquery.js");
+        // loadJS("lib/jquery-ui.js");
+        // loadJS("lib/bootstrap.min.js");
+        // loadJS("js/config.js");
+        // loadJS("js/common.js");
+        // loadJS("js/log.js");
+        // loadJS("js/httpService.js");
+        // loadJS("js/data.js");
+        // loadJS("js/dataRequestServer.js");
+        // loadJS("js/requestHandler.js");
+        // loadJS("js/preferences.js");
+
+
+        console.timeEnd("Page loading");
+    </script>
+
+</body>
+</html>

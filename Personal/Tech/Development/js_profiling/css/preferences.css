@@ -1,0 +1,83 @@
+#mainContainer {
+	background-color: #343a40;
+	overflow: auto;
+}
+
+#header {
+	height: 150px;
+}
+
+#text1 {
+	font-size: 30px;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+#text2 {
+	font-size: 20px;
+	color: orange;
+	margin-top: 5px;
+}
+
+
+#prefCount {
+	position: fixed;
+    top: 40px;
+    right: 50px;
+    color: orange;
+    font-size: 40px;
+    width: 61px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+
+/*-----------------------------*/
+#preferencePanel {
+	width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.preference {
+	display: inline-block;
+	position: relative;
+	height: 150px;
+	width: 150px;
+	margin: 10px 10px 10px 10px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.preference:hover {
+	border : 1px solid #ff5e00;
+}
+
+.prefText {
+	position: absolute;
+	color: #ff5e00;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , -50%);
+}
+
+.tick {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+#submitContainer {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#submitBtn {
+	width: 100px;
+	height: 40px;
+}

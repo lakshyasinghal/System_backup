@@ -1,0 +1,43 @@
+task A {
+	doLast{
+		println "Task A"
+	}
+}
+
+task taskB {
+	doLast {
+		println "Executing task B..."
+	}
+}
+
+task taskC {
+	doLast {
+		println "Executing task C..."
+	}
+}
+
+task taskD {
+	doLast {
+		println "Executing task D..."
+	}
+}
+
+
+A.dependsOn {
+	tasks.findAll {
+		task -> task.name.startsWith('task')
+	}
+}
+
+
+
+
+
+
+task copy(type: Copy) {
+   description 'Copies the resource directory to the target directory.'
+   from 'resources'
+   into 'target'
+   include('**/*.txt', '**/*.xml', '**/*.properties')
+   println("description applied")
+}

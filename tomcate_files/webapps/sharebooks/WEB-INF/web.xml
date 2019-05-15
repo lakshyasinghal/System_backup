@@ -1,0 +1,106 @@
+<web-app>
+
+	<display-name>Sharebooks application</display-name>
+	<description>The application is for people who love books</description>
+	
+
+
+
+
+	<!-- servlet names and class -->
+
+	<!-- <servlet>
+		<servlet-name>LoginPage</servlet-name>
+		<servlet-class>com.sharebooks.login.controllers.LoginPageController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.sharebooks.login.controllers.LogoutController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>SignIn</servlet-name>
+		<servlet-class>com.sharebooks.login.controllers.SignInController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<servlet-class>com.sharebooks.login.controllers.SignUpController</servlet-class>
+	</servlet> -->
+
+
+	<!-- <servlet>
+		<servlet-name>FilterBooksByCategory</servlet-name>
+		<servlet-class>com.sharebooks.books.controllers.BooksFilterController</servlet-class>
+	</servlet> -->
+
+
+
+
+
+
+
+	<!-- servlet mappings -->
+
+	
+
+
+
+
+	<!-- context parameters for database-->
+
+	<!-- <context-param>
+		<param-name>DB_URL</param-name>
+		<param-value>jdbc:mysql://localhost/SHAREBOOKS</param-value>
+	</context-param> -->
+
+	<!-- <context-param>
+		<param-name>DB_USERNAME</param-name>
+		<param-value>root</param-value>
+	</context-param> -->
+
+
+	<!-- <context-param>
+		<param-name>DB_PASSWORD</param-name>
+		<param-value>root</param-value>
+	</context-param> -->
+
+	<!-- <context-param>
+		<param-name>BOOKSCOUNT</param-name>
+		<param-value>100</param-value>
+	</context-param> -->
+
+
+
+	<!-- listener classes -->
+
+	<!-- <listener>
+		<listener-class>com.sharebooks.listeners.DatabaseListener</listener-class>
+	</listener> -->
+
+
+
+
+
+
+
+
+	<!-- session configuration -->
+
+	<session-config>
+		<session-timeout>60</session-timeout>
+	</session-config>
+	
+
+</web-app>
+
+
+
+
+
+
+
+
+
+

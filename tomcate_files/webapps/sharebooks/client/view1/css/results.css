@@ -1,0 +1,277 @@
+body {
+	height: 100%;
+}
+
+
+.jumbotron {
+	background-color: #FFFFFF;
+	padding-top: 0px;
+}
+
+
+#mainContainer {
+	/*background-color: #000000;*/
+	height: 100%;
+}
+
+button:focus {
+	outline : none !important;
+	box-shadow: none;
+}
+
+/*---------------------------------*/
+
+/*#headContainer {
+	position: relative;
+	background-color: #000000;
+	height: 80px;
+	margin-bottom: 0px;
+	z-index: 1;
+	border-bottom: 1px solid #FFFFFF;
+}*/
+
+/*---------------------------------*/
+
+
+/*#apptitle {
+	position: absolute;
+	font-size: 34px;
+	color: #FFFFFF;
+	/*color: #3d80e6;*/
+	/*left: 20px;
+}*/
+
+
+
+
+
+/*#profile {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	right: 40px;
+	background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+#profileList {
+	width: 120px;
+	height: 200px;
+	top: 60px;
+	right: -25px;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	z-index: 100;
+}
+
+#profileListTable {
+	width: 100%;
+	height: 100%;
+	
+}
+
+#profileListTable td {
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#profileListTable td:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+}*/
+
+
+
+
+
+
+/* ------------------------ */
+
+#bodyContainer {
+	position: relative;
+	width: 100%;
+	height: calc(100% - 80px);
+}
+
+
+#optionsContainer {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #000000;
+}
+
+
+#backButton {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20px;
+	border-radius: 50%;
+	border: 1px solid green;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+#backButton img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+
+#backButton:hover {
+	box-shadow: 0 0px 10px green;
+}
+
+#headingText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	font-size: 35px;
+	color: #6bd7e8;
+}
+
+
+#showMoreResults , #showLessResults {
+	position: absolute;
+	/*height: 40px;*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+    color: green;
+    font-size: 20px;
+    /*background-color: #FFFFFF;*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#showMoreResults:hover , #showLessResults:hover {
+	text-decoration: underline;
+	/*font-size: 24px;*/
+}
+
+
+#resultsContainer {
+	position: relative;
+	height: 80%;
+	overflow: auto;
+	margin-bottom: 0;
+}
+
+
+.result {
+	height: 230px;
+	border-bottom: 1px solid #555;
+	/*background-color: #AAAAAA;*/
+}
+
+
+.bookInfo {
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	/*background-color: #BBBBBB;*/
+	/*font-size: 11px;
+	height: 165px;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	overflow: auto;
+	cursor: pointer;*/
+}
+
+
+.bookInfo .container {
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.bookInfo .container img {
+	position: absolute;
+	left: 20px;
+}
+
+.bookInfo .container .infoPanel {
+	position: absolute;
+	left: 180px;
+}
+
+.bookInfo .container .buttonPanel {
+	position: absolute;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	left: 180px;
+	bottom: 0px;
+}
+
+.bookInfo .container .buttonPanel button {
+	width: 100px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+
+
+
+.userInfo {
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	float: right;
+	/*background-color: #CCCCCC;*/
+}
+
+
+.userInfo .container {
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.userInfo .container .infoPanel {
+	position: absolute;
+	left: 20px;
+}
+
+.userInfo .container .buttonPanel {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30px;
+}
+
+
+/*-----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

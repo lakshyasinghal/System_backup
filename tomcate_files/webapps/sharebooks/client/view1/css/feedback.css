@@ -1,0 +1,70 @@
+.heading {
+	color : #6bd7e8;
+}
+
+#ratingContainer {
+	width: 50%;
+    margin-left: 25%;
+    margin-top: 75px;
+    text-align: center;
+}
+
+
+#ratingContainer .text {
+	font-size: 20px;
+    font-weight: 150;
+}
+
+.rating {
+	margin-top: 10px;
+}
+
+.ratingBox {
+	display: inline-block;
+	position: relative;
+	width: 40px;
+    height: 40px;
+    border: 1px solid #efecec;
+    cursor: pointer;
+}
+
+.ratingBox:hover {
+	background-color: #17a2b8;
+	color: #FFFFFF;
+}
+
+.ratingBox span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+
+.selectedRating {
+	background-color: #17a2b8;
+	color: #FFFFFF;
+}
+
+#commentsContainer {
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 50px;
+}
+
+#commentsContainer .text {
+	font-size: 18px;
+    font-weight: 150;
+}
+
+#commentBox:focus {
+	outline: none;
+}
+
+#buttonContainer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#submitBtn:focus {
+	outline: none;
+}

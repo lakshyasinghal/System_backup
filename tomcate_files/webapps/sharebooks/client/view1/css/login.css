@@ -1,0 +1,171 @@
+body {
+	background-image: url("../../view1/resources/images/background/books_6.jpg");
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	position: relative;
+	height: 80px;
+}
+
+#title {
+	position: absolute;
+	font-size: 34px;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+#title:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+#signUpButton {
+	position: absolute;
+	height: 40px;
+	width: 150px;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#signUpButton:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+#signUpButton span {
+	position: absolute;
+	margin-top: 6px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+
+
+#signUpPanel {
+	position: absolute;
+	display: none;
+	width: 350px;
+	height: calc(100% - 80px);
+	top: 80px;
+	right: 0;
+	text-align: center;
+	background-color: #000000;
+	border-radius: 0 0 0 0;
+}
+
+#signUpPanel .form-signin-heading {
+	color: #FFFFFF;
+}
+
+/*#signUpPanel:hover {
+	background-color: #000000;
+}*/
+
+#signUpPanel input , #signUpPanel button {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+#signUpPanel button {
+	margin-top: 30px;
+}
+
+
+#signUpPanel .container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+/*----------------------------*/
+#signInPanel {
+	position: absolute;
+	width: 350px;
+	height: 250px;
+	background-color: #000000;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	border-radius: 10px;
+}
+
+#signInPanel .heading {
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#signInPanel input, #signInPanel button {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#signInPanel .first {
+	margin-top: 20px;
+}
+
+#forgotPasswordLink {
+	float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+	color : #ccc;
+	cursor: pointer;
+}
+
+#forgotPasswordLink:hover {
+	text-decoration: underline;
+}
+
+/*#signInButton {
+	position: relative;
+	height: 40px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#signInButton:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#signInButton span {
+	position: absolute;
+	margin-top: 6px;
+	left: 50%;
+	transform: translateX(-50%);
+}*/

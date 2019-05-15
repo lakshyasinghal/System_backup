@@ -1,0 +1,183 @@
+.center-align {
+	text-align: center;;
+}
+
+.margin-top-5 {
+	margin-top: 5px;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-top-15 {
+	margin-top: 15px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.margin-top-100 {
+	margin-top: 100px;
+}
+
+.margin-top-150 {
+	margin-top: 150px;
+}
+
+.margin-top-200 {
+	margin-top: 200px;
+}
+
+
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+
+
+.inline-block {
+	display: inline-block;
+}
+
+.hidden {
+	display: none;
+}
+
+.component-border-left {
+	border-left: 1px solid grey;
+}
+
+.component-border-right {
+	border-right: 1px solid grey;
+}
+
+.component-border-bottom {
+	border-bottom: 1px solid grey;
+}
+
+.full-height {
+	height: 100%;
+}
+
+
+.pointer {
+	cursor: pointer;
+}
+
+
+
+
+.vertical-center {
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+.horizontal-center {
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+.loader-big {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+
+.loader-small {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+#headContainer {
+	position: relative;
+	background-color: #000000;
+	height: 80px;
+	margin-bottom: 0px;
+	z-index: 1;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#apptitle {
+	position: absolute;
+	font-size: 34px;
+	color: #FFFFFF;
+	/*color: #3d80e6;*/
+	left: 20px;
+}
+
+
+#profile {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	right: 40px;
+	background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+
+#profileList {
+	width: 120px;
+	height: 200px;
+	top: 60px;
+	right: -25px;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	z-index: 100;
+}
+
+#profileListTable {
+	width: 100%;
+	height: 100%;
+	
+}
+
+#profileListTable td {
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#profileListTable td:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+}

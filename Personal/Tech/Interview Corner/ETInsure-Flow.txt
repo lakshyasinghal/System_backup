@@ -1,0 +1,20 @@
+CAR
+
+
+I. Home Page
+
+1. Get master rtas. Master rtas contain all the city and state information.
+
+2. Get all car make models. It contains information of all the car brands(Honda , Hyundai , Audi etc.)
+
+3. Get car variant for make model.
+
+4. Car initial view quote request. Send all the deatils pertaining to car and previous insurer. A view quote uuid is generated.
+
+
+
+II. Results Page
+
+1. Quote requests for all insurers. Example - bhartiAxaCarViewQuote , relianceCarViewQuote etc.
+
+

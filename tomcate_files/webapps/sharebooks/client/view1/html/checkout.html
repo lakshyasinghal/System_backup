@@ -1,0 +1,101 @@
+<html>
+
+<head>
+	<title>Results</title>
+
+	<link rel="stylesheet" href="../../lib/css/bootstrap/bootstrap.css">
+	<!-- <link rel="stylesheet" href="../css/common.css"> -->
+	<link rel="stylesheet" href="../css/checkout.css">
+	
+
+	<script type="text/javascript" src="../../lib/js/jquery/jquery.js"></script>
+	<!-- <script type="text/javascript" src="../../lib/js/jquery/jquery-ui.js"></script> -->
+	<!-- <script type="text/javascript" src="../../lib/js/bootstrap/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="../../model/static/config.js"></script>
+	<script type="text/javascript" src="../../model/logs/log.js"></script>
+	<script type="text/javascript" src="../../model/http/httpService.js"></script>
+	<script type="text/javascript" src="../../model/data/data.js"></script>
+	<script type="text/javascript" src="../../model/data/dataRequestServer.js"></script>
+	<script type="text/javascript" src="../../model/data/requestHandler.js"></script>
+	<!-- <script type="text/javascript" src="../../model/template/templates.js"></script> -->
+	<!-- <script type="text/javascript" src="../js/common.js"></script> -->
+	<script type="text/javascript" src="../js/checkout.js"></script>
+	
+</head>
+
+
+<body>
+
+
+	<div id="mainContainer" class="full-height">
+
+		<div id="bodyContainer">
+
+			<div id="titleContainer">
+				<div id="backButton" ng-click="goToPreviousPage()">
+					<img src="../resources/images/backArrow.png" width="60" height="60">
+				</div>
+
+				<div id="homeButton" ng-click="goHome()">
+					<span>HOME</span>
+				</div>	
+
+				<span class="pageTitle">CHECKOUT</span>
+			</div>	
+			
+			<div id="checkoutInfoContainer">
+				<div id="holdingContainer">
+					<div id="bookImageContainer">
+						<img id="bookImage" width="220" height="300">
+					</div>
+					<div id="detailsContainer">
+						<div id="optionDescriptionContainer"></div>
+
+						<div id="rentDetailsContainer" >
+							<div id="chargesContainer">
+								<div class="block1"><span>Charges</span></div>
+								<div class="block2">Rs <span id="rentAmount"></span> per day</div>
+							</div>
+							<div id="daysContainer">
+								<div class="block1"><span>Days</span></div>
+								<div class="block2">
+									<div id="days">
+										<span id="daysCount"></span>
+										<div id="increaseDays"><span>+<span></div>
+										<div id="decreaseDays"><span>-</span></div>
+									</div>
+								</div>
+								<div class="block3">
+									<span id="daysMessage"></span>
+								</div>
+							</div>
+							<div id="totalAmountContainer">
+								<div class="block1"><span>Amount</span></div>
+								<div class="block2"><span id="totalRentAmount"></span></div>
+							</div>
+						</div>
+
+
+						<div id="buyDetailsContainer">
+							<div id="amountContainer">
+								<div class="block1"><span>Amount</span></div>
+								<div class="block2">Rs <span id="buyAmount"></span></div>
+							</div>
+						</div>
+
+						<div id="proceedButtonContainer">
+							<button class="btn btn-lg btn-success" id="proceedButton">PROCEED</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

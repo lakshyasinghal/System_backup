@@ -1,0 +1,11 @@
+fileReport.txt
+script1.sh
+script2.sh
+script3.sh
+script4.sh
+total 40
+-rw-r--r--  1 lakshya.singhal  583837406   59 Mar 15 12:18 fileReport.txt
+-rwxr--r--  1 lakshya.singhal  583837406  129 Mar 14 12:51 script1.sh
+-rwxr--r--  1 lakshya.singhal  583837406  111 Mar 15 10:43 script2.sh
+-rwxr-xr-x  1 lakshya.singhal  583837406  227 Mar 15 12:15 script3.sh
+-rwxr-xr-x  1 lakshya.singhal  583837406   63 Mar 15 12:16 script4.sh

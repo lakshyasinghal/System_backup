@@ -1,0 +1,31 @@
+Q. How can you create an immutable object?
+
+Q. How to create a singleton class?
+
+Q. Rest based and soap based services.
+
+Q. How to debug out of memory exception?
+
+Q. What are lama expressions?
+
+Q. Inheritance related questions?
+
+Q. how does a HashMap work?
+
+Q. How garbage collection works in java?
+
+Q. When does static block run?
+
+Q. What are atomic variables?
+
+Q. What is exception hierarchy?
+
+Q. What is hot deployment?
+
+Q. What are inner classes?
+
+Q. Why do we use static classes?
+
+Q. What is the time complexity of hash map in java?
+
+Q. What scenarios do we use the trees in?
